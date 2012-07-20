@@ -1,0 +1,27 @@
+
+body{
+	font-size: 15px;
+}
+
+p{
+	color: #ff0000;
+}
+
+#nav{
+	font-size: 3.4em;
+}
+
+.intro{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #ff00ff;
+}
+
+.intro strong,
+.intro em{
+	color: #009900;
+}
+
+li.intro{
+	font-size: 1em;
+}
