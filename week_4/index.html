@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>Untitled 2</title>
+    <link type="text/css" rel="stylesheet" href="css/screen.css" />
+</head>
+
+<body>
+<h3>Application to the Imperial Academy</h3>
+<form action="process.php" enctype="multipart/form-data" method="post">
+    <label>First Name: <input type="text" name="first_name" maxlength="10" /></label>
+    <label>Last Name: <input type="text" name="last_name" /></label>
+    <label>Preferred Password: <input type="password" name="password" /></label>
+    <label>Home Planet: <input type="text" name="planet" /></label>
+    <p>Are you a rebel?</p>
+    <label><input type="radio" name="rebel" value="yes" /> Yes</label>
+    <label><input type="radio" name="rebel" value="no" /> No</label>
+    
+    <p>What is your favorite uniform color?</p>
+    <label><input type="radio" name="color" value="white" />White</label>
+    <label><input type="radio" name="color" value="black" />Black</label>
+    <p>Which of the following races have you terminated one 
+    or more life forms of?</p>
+    <label><input type="checkbox" name="dead[]" value="wookie" /> Wookie</label>
+    <label><input type="checkbox" name="dead[]" value="ewok" /> Ewok</label>
+    <label><input type="checkbox" name="dead[]" value="mandalorian" /> Mandalorian</label>
+    <label><input type="checkbox" name="dead[]" value="gungan" /> Gungan</label>
+    <label><input type="checkbox" name="dead[]" value="jawa" /> Jawa</label>
+    <label><input type="checkbox" name="dead[]" value="tuskan raider" /> Tuskan Raider</label>
+    
+    <input type="hidden" name="key" value="h137Grn3" />
+    <label class="new-question required">What is your preferred weapon?
+        <select name="weapon">
+            <option value="">Please make a choice</option>
+            <option value="blaster">Blaster</option>
+            <option value="iphone">iPhone</option>
+            <option value="bowcaster">Bowcaster</option>
+            <option value="rock">Rock</option>
+        </select>
+    </label>
+    <label class="new-question">
+        What is your most evil deed?
+        <textarea name="evil"></textarea>
+    </label>
+    <div class="new-question">
+        <input type="reset" />
+        <input type="submit" />
+    </div>
+</form>
+
+</body>
+</html>
