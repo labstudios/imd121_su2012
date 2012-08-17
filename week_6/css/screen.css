@@ -1,0 +1,9 @@
+
+body{
+    background: #000000 url('../img/vader.jpg') top center repeat-y;
+}
+
+#content p{
+    background: #ffffff;
+    background: rgba(255,255,255, 0.55);
+}

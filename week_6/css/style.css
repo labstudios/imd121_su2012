@@ -1,0 +1,41 @@
+
+body{
+    background: #000000 url('../img/background.png') 40px top repeat-y fixed;
+    color: #ffffff;
+    padding-left: 170px;
+    padding-right: 40px;
+}
+
+#area1{
+    background: url('../img/bluebg.png') left 46px repeat-x;
+}
+
+#area2, #area4{
+    background: url('../img/ghost.png') center 15px no-repeat fixed;
+}
+
+#nav a{
+    display: inline-block;
+    height: 24px;
+    color: #eeeeee;
+    color: rgba(240, 240, 240, 0.87);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: url('../img/fangs.png') center 0px no-repeat;
+    opacity: 0.58;
+    -webkit-transition-property: color, opacity;
+    -webkit-transition-duration: 2s, 1s;
+    -moz-transition-property: color, opacity;
+    -moz-transition-duration: 2s, 1s;
+    -ms-transition-property: color, opacity;
+    -ms-transition-duration: 2s, 1s;
+}
+
+#nav a:hover{
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.87);
+    background: url('../img/fangs.png') center -24px no-repeat;
+    text-decoration: underline;
+    opacity: 1;
+}
