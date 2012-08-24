@@ -3,7 +3,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000000;
-    background: #000000 url('../img/spooky.jpg') top center fixed;
+    background: #000000 url('../img/spooky.jpg') top center fixed no-repeat;
 }
 
 #shell{
