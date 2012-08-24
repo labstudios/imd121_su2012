@@ -1,0 +1,17 @@
+
+#group1 a{
+    padding: 15px;
+}
+
+#flowers{
+    width: 450px;
+    height: 300px;
+    background: url('../photos/flowers.jpg') 0px 0px;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#flowers:hover{
+    background: url('../photos/flowers.jpg') 0px -300px;
+}

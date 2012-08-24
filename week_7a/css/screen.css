@@ -1,0 +1,50 @@
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    background: #000000 url('../img/spooky.jpg') top center fixed;
+}
+
+#shell{
+    width: 750px;
+    padding: 0;
+    margin: 25px auto;
+}
+
+#sidebar{
+    width: 155px;
+    padding: 12px 15px;
+    margin: 0 10px 0 0;
+    float: left;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.51);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 16px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 16px 7px rgba(0, 0, 0, 0.5);
+}
+
+#sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #222222;
+}
+
+#content{
+    width: 520px;
+    padding: 12px 15px;
+    margin: 0;
+    float: left;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.51);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 16px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 16px 7px rgba(0, 0, 0, 0.5);
+}
+
+.clear{
+    height: 0;
+    clear: both;
+}
