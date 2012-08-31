@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'LintsecRegular';
+    src: url('../fonts/Lintsec-webfont.eot');
+    src: url('../fonts/Lintsec-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lintsec-webfont.woff') format('woff'),
+         url('../fonts/Lintsec-webfont.ttf') format('truetype'),
+         url('../fonts/Lintsec-webfont.svg#LintsecRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+
+#nav a{
+    color: #4E9539;
+}
+
+#nav a:visited{
+    color: gold;
+}
+
+#nav a:hover{
+    color: maroon;
+}
+
+#nav a:active{
+    color: chocolate;
+}
+
+#content h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content h1:active{
+    color: maroon;
+}
+
+.article p{
+    color: maroon;
+}
+
+.article p:first-child:first-line{
+    color:  #4E9539;
+    font-size: 1.5em;
+    font-family: LintsecRegular;
+}
