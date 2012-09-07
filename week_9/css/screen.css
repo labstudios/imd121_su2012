@@ -1,0 +1,22 @@
+body{
+    font-family: helvetica, ariel, sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+article{
+    margin-left: 15px;
+}
+
+header h3, header p{
+    margin: 0;
+}
+
+header p{
+    font-style: italic;
+    font-size: .93em;
+}
+
+header{
+    margin: 10px 0;
+}
