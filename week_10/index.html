@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+
+	<title>Number Guesser</title>
+    <script>
+        var rand = Math.ceil(Math.random() * 10);
+        var correct = false;
+        var guess = 0;
+        
+        while(!correct)
+        {
+            guess = Number(prompt("Geuss a number between 1 and 10"));
+            
+            if(guess == 0 || !guess)
+            {
+                var goAgain = confirm("Didn't get that. Do you want to guess again?");
+                if(!goAgain)
+                {
+                   alert("It was " + rand.toString() + " you quitter.");
+                   break; 
+                }
+            }
+            
+            if(guess == rand)
+            {
+                correct = true;
+                alert("Right!");
+            }
+            else if(guess < rand)
+            {
+                alert("Nope. Guess higher");
+            }
+            else if(guess > rand)
+            {
+                alert("Nope. Guess lower");
+            }
+        }
+    
+    </script>
+</head>
+
+<body>
+
+<h3>Thanks for playing!</h3>
+
+</body>
+</html>
